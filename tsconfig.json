@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "strict": true,
+    "paths": {
+      "@configs": ["configs"],
+      "@connectors": ["connectors"],
+      "@controllers": ["controllers"],
+      "@errors": ["errors"],
+      "@middlewares": ["middlewares"],
+      "@models": ["models"],
+      "@repository": ["repository"],
+      "@services": ["services"],
+      "@app-types/*": ["types/*"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

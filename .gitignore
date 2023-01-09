@@ -1,0 +1,8 @@
+#ide config
+.idea
+
+#environment
+.env
+
+#dependencies
+node_modules
